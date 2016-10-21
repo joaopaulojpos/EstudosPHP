@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Cadastro de Disciplinas</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<form name="cadastro" action="Disciplina.php" method="POST">
+<fieldset>
+<legend>Inserir Disciplinas</legend>
+Nome da Disciplina: <input type="text" id="Nomedis" name="Nomedis" required autofocus><br /><br />
+Nome do Professor: <input type="text" id="Professor" name="Professor" required ><br /><br />
+<input type="submit" name="enviar" value="ENVIAR">
+</fieldset>
+</form>
+
+<!-- Botão Listar -->
+<p>&nbsp;</p>
+<form name="listaDisciplina" action="ListarDisciplinas.php" method="POST">
+<input type="submit" name="listar" value="LISTAR DISCIPLINAS">
+</form>
+
+<!-- Botão Atualizar -->
+<p>&nbsp;</p>
+<form name="atualizarDisciplina" action="AtualizarDisciplinas.php" method="POST">
+<fieldset>
+<legend>Alterar Disciplinas</legend>
+ID da Disciplina: <input type="text" id="Identificador" name="Identificador" required autofocus><br /><br />
+Nome da Disciplina: <input type="text" id="Nomedis" name="Nomedis" required><br /><br />
+Nome do Professor: <input type="text" id="Professor" name="Professor" required ><br /><br />
+<input type="submit" name="alterar" value="Alterar DISCIPLINAS">
+</fieldset>
+</form>
+
+<!-- Botão Deletar -->
+<p>&nbsp;</p>
+<form name="excluirDisciplina" action="ExcluirDisciplina.php" method="POST">
+<fieldset>
+<legend>Excluir Disciplinas</legend>
+ID da Disciplina: <input type="text" id="Identificador" name="Identificador" required autofocus><br /><br />
+<input type="submit" name="excluir" value="EXCLUIR DISCIPLINAS">
+</fieldset>
+</form>
+
+</body>
+</html>
