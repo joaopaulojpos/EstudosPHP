@@ -1,8 +1,8 @@
 <?php
 require_once "Conexao.php";
 
-$nome = $_POST['Nomedis'];
-$professor = $_POST['Professor'];
+$nome = utf8_decode($_POST['Nomedis']);
+$professor = utf8_decode($_POST['Professor']);
 
 
 // Create connection
@@ -61,7 +61,7 @@ function cadastrar_disciplina($nome , $professor){
 		}
 	}else{
 
-		$msg = "professor já existe";
+		$msg = "Professor Já Existe";
 	}
 
 	return $msg;	
