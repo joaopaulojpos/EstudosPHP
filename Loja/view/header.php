@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="shop">
 	<head>
 
 		<meta charset="utf-8">
@@ -8,8 +8,11 @@
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/raty/lib/jquery.raty.css">
 		<link rel="stylesheet" href="css/orlando.css">
 		<link rel="stylesheet" href="css/orlando-mobile.css">
+
+		<script src="lib/angularjs/angular.min.js"></script>
 
 	</head>
 	<body>

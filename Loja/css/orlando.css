@@ -522,4 +522,30 @@ video {
     top: 78px;
     right: 3px;
 }
-
+.box-produto-info a {
+	text-decoration: none;
+}
+.box-produto-info h3 {
+	font-size: 12px;
+	font-family: arial;
+	color: #666;
+}
+.box-produto-info .produto-img {
+	width: 100%;
+}
+.box-produto-info .text-valor {
+	font-size: 26px;
+	font-weight: bold;
+}
+.title-default-roxo h2 {
+	color: #5E2799;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title-default-roxo hr {
+	border: #FDE192 solid 8px;
+    width: 200px;
+    margin: 0 auto;
+}
