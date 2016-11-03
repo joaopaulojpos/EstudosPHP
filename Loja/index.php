@@ -21,10 +21,21 @@ $app->get(
 
 // GET video
 $app->get(
-    '/Videos',
+    '/videos',
     function () {
 
         require_once("view/videos.php");
+     
+    }
+);
+
+
+// GET shop
+$app->get(
+    '/shop',
+    function () {
+
+        require_once("view/shop.php");
      
     }
 );
