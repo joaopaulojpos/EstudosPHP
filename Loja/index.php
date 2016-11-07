@@ -40,4 +40,16 @@ $app->get(
     }
 );
 
+$app->get(
+    '/produtos', 
+    function(){
+
+    $sql = new Sql();
+
+   $data = $sql->select("SELECT * FROM tb_produtos where preco_promocional > 0 order by preco_promocional desc limit 3;");
+
+    json_encode($data);
+    }
+);
+
 $app->run();
